@@ -22,4 +22,4 @@ jobs:
         run: gcloud auth configure-docker
 
       - name: Build and push to Google Container Registry
-        run: gcloud builds submit --config cloudbuild.yaml .
+        run: gcloud builds submit --config cloudbuild.yml .
