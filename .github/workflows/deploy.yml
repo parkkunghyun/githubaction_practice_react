@@ -26,8 +26,8 @@ jobs:
 
       - name: Deploy to Cloud Run
         run: |
-          gcloud run deploy your-service-name \
-            --image gcr.io/as-rudgus4620/your-image-name \
+          gcloud run deploy action-practice \
+            --image gcr.io/as-rudgus4620/action_practice \
             --platform managed \
             --region us-central1 \
             --allow-unauthenticated
