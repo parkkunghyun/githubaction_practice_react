@@ -1,6 +1,6 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '--platform', 'linux/amd64', '-t', 'gcr.io/PROJECT_ID/action_practice', '.']
+    args: ['build', '--platform', 'linux/amd64', '-t', 'gcr.io/as-rudgus4620/action_practice', '.']
 
 images:
-  - 'gcr.io/PROJECT_ID/action_practice'
+  - 'gcr.io/as-rudgus4620/action_practice'
